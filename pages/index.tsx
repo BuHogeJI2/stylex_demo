@@ -1,19 +1,17 @@
-import {ReactElement} from "react";
-import * as stylex from '@stylexjs/stylex';
+import * as stylex from "@stylexjs/stylex";
 
 const styles = stylex.create({
-  red: {
-    color: 'red',
-    fontSize: 60,
+  bg: {
+    backgroundColor: "red",
   },
 });
 
-export default function HomePage(): ReactElement {
-  return <div {...stylex.props(styles.red)}>{`Hello World`}</div>;
-}
+const RootPage = () => {
+  return (
+    <main>
+      <div {...stylex.props(styles.bg)}>{`HOME PAGE`}</div>
+    </main>
+  );
+};
 
-export const getServerSideProps = async ctx => {
-  return {
-    props: {}
-  }
-}
+export default RootPage;
