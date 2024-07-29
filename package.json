@@ -1,0 +1,40 @@
+{
+  "name": "stylex-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "rm -rf .next",
+    "dev": "next dev",
+    "prebuild": "rm -rf .next",
+    "build": "NODE_ENV=production next build",
+    "start": "next start"
+  },
+  "resolutions": {
+    "@types/node": "16.11.27",
+    "@types/react": "16.14.11",
+    "@types/react-dom": "16.9.14",
+    "next": "12.1.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "0.7.5",
+    "next": "12.1.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-syntax-flow": "^7.22.5",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/plugin-syntax-typescript": "^7.22.5",
+    "@stylexjs/babel-plugin": "^0.4.1",
+    "@stylexjs/eslint-plugin": "^0.4.1",
+    "@stylexjs/nextjs-plugin": "^0.4.1",
+    "@types/node": "16.11.27",
+    "@types/react": "16.14.11",
+    "@types/react-dom": "16.9.14",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "yarn@3.2.3"
+}
