@@ -9,7 +9,7 @@ module.exports = {
         genConditionalClasses: true,
         treeshakeCompensation: true,
         aliases: {
-          '@/*': [path.join(__dirname, '*')],
+          'theme/*': [path.join(__dirname, 'theme/*')],
         },
         unstable_moduleResolution: {
           type: 'commonJS',

@@ -1,5 +1,5 @@
 import * as stylex from "@stylexjs/stylex";
-import {colors} from "@/theme/vars.stylex";
+import {colors} from "theme/vars.stylex";
 
 export const sectionStyles = stylex.create({
   section: {
