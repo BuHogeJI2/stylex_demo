@@ -1,4 +1,6 @@
-import {Section} from "components/section";
+import { Section } from "@/components/section";
+import React from "react";
+
 
 const RootPage = () => {
   return (
