@@ -2,7 +2,7 @@
 const stylexPlugin = require("@stylexjs/nextjs-plugin");
 
 const nextConfig = {
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  pageExtensions: ["js", "jsx", "ts", "tsx"],
 };
 
 module.exports = stylexPlugin({
